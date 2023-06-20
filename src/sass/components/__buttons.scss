@@ -1,0 +1,31 @@
+
+
+.button {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	padding: 1.5rem 1rem;
+	margin: 1rem 2rem;
+	background: none;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+
+	&--add {
+		background-color: $color-primary;
+	}
+	&--remove {
+		background-color: #f22613;
+	}
+
+	&__popup {
+
+		box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px,
+			rgba(17, 17, 26, 0.1) 0px 16px 48px;
+	}
+}

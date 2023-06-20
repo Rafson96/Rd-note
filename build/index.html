@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/path/to/material-symbols/index.css" rel="stylesheet">
+<script defer src="js/main-ebe279.js"></script><link href="css/main-94.css" rel="stylesheet"></head>
+
+<body>
+
+    <div class="notes">
+        <div class="notes__title"><span class=" material-icons-outlined">
+                description
+            </span>
+            <h1>My Notes</h1>
+        </div>
+
+
+        <div class="notes__btns">
+
+            <button class="button button--add"><span class="material-icons-outlined">
+                    post_add
+                </span>Dodaj
+            </button>
+            <button class="button button--remove"><span class="material-icons-outlined">
+                    delete_forever
+                </span>Usuń
+                wszystkie</button>
+
+        </div>
+        <div class="notes__popup">
+            <h2>Dodaj notatkę</h2>
+            <p>Wybierz Kategorie </p>
+            <select name="zakupy" class="notes__popup-select">
+
+                <option value="work">Praca</option>
+                <option value="Shop">Zakupy</option>
+                <option value="Other">Inne</option>
+
+            </select>
+            <textarea class='notes__text' name="comment" rows="5" cols="30"></textarea>
+            <div class="notes__btns">
+                <button class="button button__popup button__popup--add"><span class="material-icons-outlined">
+                        post_add
+                    </span>Dodaj
+                </button>
+                <button class="button button__popup button__popup--cancel"><span class="material-icons-outlined">
+                        close
+                    </span>Anuluj
+                </button>
+            </div>
+            <span class="notes__popup-error">Dodaj treść !!!</span>
+
+        </div>
+
+
+        <div class="notes__wrapp">
+            <template class="template-notes">
+                <div class="notes__wrapp-note">
+                    <h2 class="notes__wrapp-note-title">
+                        zakupy<span class="material-icons-outlined material-icons-outlined-title">
+                            close
+                        </span>
+                        </span>
+                    </h2>
+                    <p class="notes__wrapp-note-text">
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet et provident expedita dolores
+
+                    </p>
+                </div>
+            </template>
+        </div>
+
+        <div class="notes__bin"> <svg id="bin-svg" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" viewBox="0 0 500 500">
+                <g transform="translate(-38.054 173.65)">
+                    <line x1="-200" y1="-150" x2="5000" y2="-150" style="stroke:rgb(0,0,0);stroke-width:20" />
+                    <path
+                        d="m142.31 300.94h288.87v25.404h-288.87v-25.404zm-52.683-474.6h396.6v25.404h-0.1v-25.404zm14.773 44.067 5.2167 41.945-58.587-32.943-12.975 22.049 75.441 42.467 42.269 340.13h17.121l-39.794-413.65h-28.692zm55.578 0 31.367 413.65h34.912l-29.494-413.65h-36.784zm72.164 0 12.64 413.65h33.708l-8.427-413.65h-37.921zm73.368 0-8.427 413.65h34.176l12.64-413.65h-38.39zm73.769 0-29.494 413.65h34.912l31.367-413.65h-36.784zm63.67 0-39.794 413.65h16.988l42.202-340.06 75.709-42.532-13.042-22.049-58.721 33.074 5.2167-42.076h-28.558z" />
+                    <g transform="translate(-167.7 -207.38)">
+                        <g transform="translate(-3.5 457.5)">
+                            <g transform="matrix(1.0961 0 0 1.0961 -.33626 -4.0831)" fill="#828282" />
+                        </g>
+                    </g>
+                </g>
+            </svg></div>
+
+
+    </div>
+
+
+</body>
+
+</html>

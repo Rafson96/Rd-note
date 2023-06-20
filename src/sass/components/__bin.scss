@@ -1,0 +1,14 @@
+svg {
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	right: 2rem;
+	bottom: 2rem;
+	overflow: hidden;
+}
+
+svg line {
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 0;
+	transition: 1s;
+}
